@@ -96,9 +96,9 @@ Bernhard.can(BrowseTheWeb.using(aBrowser));
 return Bernhard.attemptsTo(
     Navigate.to("http://localhost:3000"),
     
-    // TypeIn.theNumber(this.theFirstNumber),
+    // TypeIn.theNumber(10),
     // Click.on(Calculators.ADD_BUTTON),
-    // TypeIn.theNumber(this.theSecondNumber),
+    // TypeIn.theNumber(7),
     // Click.on(Calculators.RESULT_BUTTON)
     Add.number(10).to(7),
 
