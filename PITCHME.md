@@ -56,6 +56,7 @@ return Bernhard.attemptsTo(
         .is(strictEqualTo("-25")),
 )
 ````
+
 @[8-10](With increased number variations the clicks are changing!)
 @[8-11](Create a task out of interactions)
 
@@ -80,7 +81,7 @@ export class TypeIn extends Task {
     private constructor(theNumber: number) {...}
 }
 ````
-
+@[1](TypeIn is of type task)
 @[4-8](A task should perform something)
 @[5-7](The actor attempts to perform interactions with the ability)
 
@@ -164,3 +165,14 @@ export class Add extends Task{
 @[1-14](The actor can ask questions of the systems state)
 
 
+---
+
+##Ressources
+
+Sources: [https://github.com/andy-schulz/thekla-demo-agile-day](Check it out on Github)
+
+Presentation: [https://gitpitch.com/andy-schulz/thekla-demo-agile-day](Done with Gitpitch)
+
+---
+
+## Questions ?
