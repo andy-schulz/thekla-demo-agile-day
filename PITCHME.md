@@ -30,7 +30,11 @@ return Bernhard.attemptsTo(
 @[17-18](The actor asks a question)
 
 ---
-### How do we simplify those many interactions?
+
+### How do we deal with varying number sizes?
+
+---
+
 ````typescript
 const Bernhard = Actor.named("Bernhard");
 
@@ -55,8 +59,11 @@ return Bernhard.attemptsTo(
 ````
 
 @[8-10](Create a task out of interactions)
+
 ---
-# What are the main artifacts of the Screenplay Pattern?
+
+### What are the main artifacts of the Screenplay Pattern?
+
 ````typescript
 /**
 * ACTOR
@@ -73,5 +80,11 @@ return Bernhard.attemptsTo(
 *   | --- asks ---> | QUESTION |
 */
 ````
+
+@[1-2](Start with an actor!)
+@[1-3](He can use an ability - e.g. browser the web!)
+@[1-7](The ability enables him to interact with the system - e.g. a browser)
+@[1-11](Interactions can be combined to tasks)
+@[1-14](The actor can ask questions of the systems state)
 
 
