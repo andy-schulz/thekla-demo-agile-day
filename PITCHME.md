@@ -1,0 +1,5 @@
+---?code=src/test/screenplay_demo_spec.ts&lang=typescript
+
+@[22](Create an actor)
+@[24](Give an ability to an actor)
+@[26-41](Let the actor do something)
