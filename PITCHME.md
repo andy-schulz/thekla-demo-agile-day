@@ -107,7 +107,8 @@ return Bernhard.attemptsTo(
 )
 ````
 
-@[8-12](Export the singel steps to a task)
+@[8-12](Export the steps to a task)
+
 ---
 
 ### Yes we can!
@@ -135,6 +136,7 @@ export class Add extends Task{
 
 @[4-11](a task can consist of interactions and tasks)
 
+---
 
 ### What are the main artifacts of the Screenplay Pattern?
 
