@@ -143,7 +143,7 @@ export class Add extends Task{
 ````typescript
 /**
 * ACTOR
-*   | ------ uses ----> ABILITY 
+*   | ------ uses ---- > ABILITY 
 *   |                        \
 *   |                      enables
 *   |                          \
@@ -151,9 +151,9 @@ export class Add extends Task{
 *   |                           /
 *   |                     made up of 
 *   |                        /
-*   | --- performs ----> TASKS
+*   | --- performs ---- > TASKS
 *   |
-*   | --- asks ---> QUESTION
+*   | --- asks --- > QUESTION
 */
 ````
 
