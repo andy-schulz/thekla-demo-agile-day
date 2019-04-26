@@ -33,8 +33,6 @@ return Bernhard.attemptsTo(
 
 ### How do we deal with varying number sizes?
 
----
-
 ````typescript
 const Bernhard = Actor.named("Bernhard");
 
@@ -43,6 +41,7 @@ Bernhard.can(BrowseTheWeb.using(aBrowser));
 return Bernhard.attemptsTo(
     Navigate.to("http://localhost:3000"),
 
+    // Click.on(Calculators.SIGNATURE_BUTTON("-")),
     // Click.on(Calculators.NUMBER_BUTTON("3")),
     // Click.on(Calculators.NUMBER_BUTTON("0")),
     TypeIn.theNumber(-30),
@@ -57,10 +56,33 @@ return Bernhard.attemptsTo(
         .is(strictEqualTo("-25")),
 )
 ````
-
-@[8-10](Create a task out of interactions)
+@[8-10](With increased number variations the clicks are changing!)
+@[8-11](Create a task out of interactions)
 
 ---
+
+### How does a task look like?
+````typescript
+export class TypeIn extends Task {
+    private theNumberArray: string[];
+
+    performAs(actor: PerformsTask): Promise<void> {
+        return actor.attemptsTo(
+            ...this.clickOnTheNumbersSingleDigits()
+        )
+    }
+
+    private clickOnTheNumbersSingleDigits() {...}
+
+    public static theNumber(theNumber: number) {...}
+
+    private constructor(theNumber: number) {...}
+}
+````
+
+@[4-8](every task must perform something)
+@[5-7](the actor performs interactions or tasks)
+
 
 ### What are the main artifacts of the Screenplay Pattern?
 
@@ -77,13 +99,13 @@ return Bernhard.attemptsTo(
 *   |                        /
 *   | --- performs ----> TASKS
 *   |
-*   | --- asks ---> | QUESTION |
+*   | --- asks ---> QUESTION
 */
 ````
 
 @[1-2](Start with an actor!)
-@[1-3](He can use an ability - e.g. browser the web!)
-@[1-7](The ability enables him to interact with the system - e.g. a browser)
+@[1-3](He can use an ability (eg browser the web))
+@[1-7](The ability enables him to interact with the system (eg a browser))
 @[1-11](Interactions can be combined to tasks)
 @[1-14](The actor can ask questions of the systems state)
 

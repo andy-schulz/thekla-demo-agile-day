@@ -2,14 +2,13 @@ import {Task, PerformsTask, Click, Activity} from "thekla-core";
 import {Calculators}               from "../pgo/Calculators";
 
 export class TypeIn extends Task {
+    private theNumberArray: string[];
 
     performAs(actor: PerformsTask): Promise<void> {
         return actor.attemptsTo(
             ...this.clickOnTheNumbersSingleDigits()
         )
     }
-
-    private theNumberArray: string[];
 
     private clickOnTheNumbersSingleDigits() {
         let shift: boolean = false;
