@@ -1,0 +1,25 @@
+{
+  "name": "thekla-demo-agile-day",
+  "version": "1.0.0",
+  "description": "BDD and Screenplay demo agile day",
+  "main": "index.js",
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "lodash": "^4.17.11",
+    "thekla": "^1.13.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy-schulz/thekla-demo-agile-day.git"
+  },
+  "author": "Andy Schulz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andy-schulz/thekla-demo-agile-day/issues"
+  },
+  "homepage": "https://github.com/andy-schulz/thekla-demo-agile-day#readme"
+}
