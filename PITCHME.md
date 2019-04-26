@@ -152,7 +152,7 @@ export class Add extends Task{
 *   |                     made up of 
 *   |                        /
 *   | --- performs ---- > TASKS
-*   |
+*   | -
 *   | --- asks --- > QUESTION
 */
 ````
