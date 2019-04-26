@@ -81,6 +81,9 @@ export class TypeIn extends Task {
 }
 ````
 
+@[4-8](A task should perform something)
+@[5-7](The actor attempts to perform interactions with the ability)
+
 ---
 
 ### Can we compose a task out of tasks?
@@ -93,6 +96,10 @@ Bernhard.can(BrowseTheWeb.using(aBrowser));
 return Bernhard.attemptsTo(
     Navigate.to("http://localhost:3000"),
     
+    // TypeIn.theNumber(this.theFirstNumber),
+    // Click.on(Calculators.ADD_BUTTON),
+    // TypeIn.theNumber(this.theSecondNumber),
+    // Click.on(Calculators.RESULT_BUTTON)
     Add.number(10).to(7),
 
     See.if(Text.of(Calculators.RESULT_FIELD))
@@ -100,6 +107,7 @@ return Bernhard.attemptsTo(
 )
 ````
 
+@[8-12](Export the singel steps to a task)
 ---
 
 ### Yes we can!
