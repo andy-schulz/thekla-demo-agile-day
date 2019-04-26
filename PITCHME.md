@@ -139,6 +139,25 @@ export class Add extends Task{
 
 ---
 
+### That's how we get readable an maintainable tests!
+
+````typescript
+const Bernhard = Actor.named("Bernhard");
+
+Bernhard.can(BrowseTheWeb.using(aBrowser));
+
+return Bernhard.attemptsTo(
+    Navigate.to("http://localhost:3000"),
+    
+    Add.number(10).to(7),
+
+    See.if(Text.of(Calculators.RESULT_FIELD))
+        .is(strictEqualTo("17"))
+)
+````
+
+---
+
 ### What are the main artifacts of the Screenplay Pattern?
 
 ````typescript
