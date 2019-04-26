@@ -9,7 +9,7 @@ Then(/(.*) should get the result (.+)/,
         const currentActor = world.currentActor;
 
         return currentActor.attemptsTo(
-            See.if(Text.of(Calculators.resultField))
+            See.if(Text.of(Calculators.RESULT_FIELD))
                 .is(strictEqualTo(`${result}`)),
             Sleep.for(1000)
         );

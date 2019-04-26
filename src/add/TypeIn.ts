@@ -18,7 +18,7 @@ export class TypeIn extends Task {
             if(theSingleNumber == "-") {
                 shift = true;
             }
-            return Click.on(Calculators.numberButton(theSingleNumber))
+            return Click.on(Calculators.NUMBER_BUTTON(theSingleNumber))
         });
 
         if(shift)

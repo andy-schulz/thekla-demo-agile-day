@@ -9,10 +9,10 @@ export class Subtract extends Task{
         return actor.attemptsTo(
             TypeIn.theNumber(this.theMinuend),
             Sleep.for(1000),
-            Click.on(Calculators.addButton),
+            Click.on(Calculators.ADD_BUTTON),
             TypeIn.theNumber(this.theSubtrahend),
             Sleep.for(1000),
-            Click.on(Calculators.resultButton)
+            Click.on(Calculators.RESULT_BUTTON)
         )
     }
 
