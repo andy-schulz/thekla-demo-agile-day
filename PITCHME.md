@@ -62,6 +62,7 @@ return Bernhard.attemptsTo(
 ---
 
 ### How does a task look like?
+
 ````typescript
 export class TypeIn extends Task {
     private theNumberArray: string[];
@@ -80,8 +81,51 @@ export class TypeIn extends Task {
 }
 ````
 
-@[4-8](every task must perform something)
-@[5-7](the actor performs interactions or tasks)
+---
+
+### Can we compose a task out of tasks?
+
+````typescript
+const Bernhard = Actor.named("Bernhard");
+
+Bernhard.can(BrowseTheWeb.using(aBrowser));
+
+return Bernhard.attemptsTo(
+    Navigate.to("http://localhost:3000"),
+    
+    Add.number(10).to(7),
+
+    See.if(Text.of(Calculators.RESULT_FIELD))
+        .is(strictEqualTo("17"))
+)
+````
+
+---
+
+### Yes we can!
+
+````typescript
+export class Add extends Task{
+    private theSecondNumber: number = 0;
+
+    performAs(actor: PerformsTask): Promise<void> {
+        return actor.attemptsTo(
+            TypeIn.theNumber(this.theFirstNumber),
+            Click.on(Calculators.ADD_BUTTON),
+            TypeIn.theNumber(this.theSecondNumber),
+            Click.on(Calculators.RESULT_BUTTON)
+        )
+    }
+
+    public static number(firstNumber: number): Add {...}
+
+    public to(secondNumber: number): Add {...}
+
+    private constructor(private theFirstNumber: number) {...}
+}
+````
+
+@[4-11](a task can consist of interactions and tasks)
 
 
 ### What are the main artifacts of the Screenplay Pattern?
