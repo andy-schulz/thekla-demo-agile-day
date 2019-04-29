@@ -4,7 +4,7 @@ export const config: TheklaConfig = {
     specs: ["features/**/*.feature"],
 
     seleniumConfig: {
-        seleniumServerAddress: "http://localhost:4445/wd/hub",
+        seleniumServerAddress: "http://localhost:4444/wd/hub",
     },
 
     capabilities: [{

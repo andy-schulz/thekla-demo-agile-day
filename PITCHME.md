@@ -1,18 +1,18 @@
 ## Embrace BDD and Gherkin! 
 
-###Describe what you want from your system in simple examples.
+### Describe what you want from your system in simple examples.
 
 ---
 
 ### What are the basic features of Gherkin?
 
 `````gherkin
-Feature: As a Mathematician I want to use a calculator to add and subtract numbers,
-  so that I dont have to do it myself.
+Feature: As a Mathematician I want to use a calculator to add 
+  and subtract numbers, so that I dont have to do it myself.
 
-  The ADDITION is defined as:
-  Other names for Addition are Sum, Plus, Increase, Total
-  the numbers to be added together are called the "Addends":
+  The ADDITION:
+  Other names for Addition are Sum, Plus, Increase, Total.
+  The numbers to be added together are called the "Addends":
 
   Scenario: Add two positive numbers
     Given Steven is using a WebCalculator
@@ -24,6 +24,11 @@ Feature: As a Mathematician I want to use a calculator to add and subtract numbe
 @[4-6](Detailed description of the feature)
 @[8](Description of the expected behaviour)
 @[8-11](The three main parts of a scenario)
+@[1-11](And combined we have a nice description what the system should do)
+
+Note:
+
+- communicate within a team and discuss examples not abstract Stories or requirements
 
 ---
 
@@ -45,6 +50,12 @@ Feature: As a Mathematician i want to use a calculator to calculate a large numb
 
 @[6-7](Insert placeholder for your data set)
 @[6-11](Describe your data set in a simple table)
+@[1-11](Add data to the table as you like)
+
+Note:
+
+- the examples are data driven
+- as a tester think about pairwise testing
 
 ---
 
