@@ -35,8 +35,8 @@ Note:
 ### What about data sets?
 
 ````gherkin
-Feature: As a Mathematician i want to use a calculator to calculate a large number of calculations,
-  so that
+Feature: As a Mathematician I want to use a calculator 
+  to do a large number of calculations to speed up my project
 
   Scenario Outline: Do multiple calculations
     Given Steven is using a WebCalculator
@@ -48,6 +48,7 @@ Feature: As a Mathematician i want to use a calculator to calculate a large numb
       | 10          | -5           | 5      |
 ````
 
+@[4](Use a scenario outline)
 @[6-7](Insert placeholder for your data set)
 @[6-11](Describe your data set in a simple table)
 @[1-11](Add data to the table as you like)
@@ -56,6 +57,7 @@ Note:
 
 - the examples are data driven
 - as a tester think about pairwise testing
+- We can have multiple Given, When, Then steps
 
 ---
 
