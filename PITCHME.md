@@ -1,3 +1,53 @@
+## Embrace BDD and Gherkin! 
+
+###Describe what you want from your system in simple examples.
+
+---
+
+### What are the basic features of Gherkin?
+
+`````gherkin
+Feature: As a Mathematician I want to use a calculator to add and subtract numbers,
+  so that I dont have to do it myself.
+
+  The ADDITION is defined as:
+  Other names for Addition are Sum, Plus, Increase, Total
+  the numbers to be added together are called the "Addends":
+
+  Scenario: Add two positive numbers
+    Given Steven is using a WebCalculator
+    When He adds the numbers 123 and 345
+    Then He should get the result 468
+`````
+
+@[1-2](Summary about the examples which are about to follow)
+@[4-6](Detailed description of the feature)
+@[8](Description of the expected behaviour)
+@[8-11](The three main parts of a scenario)
+
+---
+
+### What about data sets?
+
+````gherkin
+Feature: As a Mathematician i want to use a calculator to calculate a large number of calculations,
+  so that
+
+  Scenario Outline: Do multiple calculations
+    Given Steven is using a WebCalculator
+    When He adds the numbers <firstNumber> and <secondNumber>
+    Then He should get the result <result>
+    Examples:
+      | firstNumber | secondNumber | result |
+      | 10          | 5            | 15     |
+      | 10          | -5           | 5      |
+````
+
+@[6-7](Insert placeholder for your data set)
+@[6-11](Describe your data set in a simple table)
+
+---
+
 ## What is the Screenplay Pattern?
 
 ---
@@ -186,7 +236,7 @@ return Bernhard.attemptsTo(
 
 ---
 
-##Ressources
+## Ressources
 
 Sources: [https://github.com/andy-schulz/thekla-demo-agile-day](Check it out on Github)
 
