@@ -132,7 +132,7 @@ Automation
 
 @snap[south-east span-30 fragment]
 
-@box[bg-grey](Cons),
+@box[bg-gray](Cons),
 
 @ol
  - first con 
