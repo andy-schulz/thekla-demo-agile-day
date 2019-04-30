@@ -66,7 +66,7 @@
 
 @snap[west span-40]
 
-### Benefit 1: Collaboration: But with whom?
+##### Benefit 1: Collaboration: But with whom?
 ![ThreeAmigos](pitchme_res/3_amigos.png)
 
 @snapend
