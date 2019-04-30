@@ -2,10 +2,11 @@
 
 ---
 
-@snap[north span-100 text-center]
+@snap[north span-100 text-center text-12]
 
-### Move your attention to quality to the left ... to your developers!
-@fa[quote-left quote-graphql](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
+#### Move your attention to quality to the left ... to your developers!
+
+@fa[quote-left text-08](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
 
 @snapend
 
@@ -29,11 +30,11 @@
 
 ---
 
-@snap[north span-100 text-center]
+@snap[north span-100 text-center text-12]
 
-### When there is a LEFT ... there must be a RIGHT!
+#### When there is a LEFT ... there must be a RIGHT!
 
-@fa[quote-left quote-graphql](A query language for your API)
+@fa[quote-left text-08](I have to keep testing myself. - Eartha Kitt)
 
 @snapend
 
@@ -45,11 +46,11 @@
 
 
 @snap[south-west span-30 text-06]
-@box[rounded](Done in: Production)
+@box[rounded](Done in #Production)
 @snapend
 
 @snap[south span-30 text-06]
-@box[rounded](Done for # Performance or UX tests)
+@box[rounded](Done for #Performance or UX tests)
 @snapend
 
 @snap[south-east span-30 text-06]
