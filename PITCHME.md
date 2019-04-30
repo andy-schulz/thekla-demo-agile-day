@@ -4,7 +4,7 @@
 
 @snap[north span-100 text-center text-12]
 
-#### Move your attention to quality to the left ... to your developers!
+#### Move quality to the left ... to your developers!
 
 @fa[quote-left text-08](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
 
@@ -21,11 +21,11 @@
 @snapend
 
 @snap[south span-30 text-06 fragment]
-@box[rounded](Benefit 2. Query #Test early, Test often!               )
+@box[rounded](Benefit 2. Query #Test early, Test often!)
 @snapend
 
 @snap[south-east span-30 text-06 fragment]
-@box[rounded](Benefit 3 #Find your bugs early!                        )
+@box[rounded](Benefit 3 #Find your bugs early!)
 @snapend
 
 ---
