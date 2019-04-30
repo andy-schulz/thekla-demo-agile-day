@@ -3,7 +3,7 @@
 
 ---
 
-## What does Shift Left mean exactly?
+## What does @color [#DC143C](Shift Left) mean exactly?
 
 ---
 
@@ -12,7 +12,8 @@
 ####  Move quality to the left ... to your developers!
 
 @fa[quote-left text-08 text-blue](Testing leads to failure, and failure leads to understanding.)
-@css[text-08 text-blue text-center](Burt Rutan)
+
+@css[text-05 text-blue text-right](Burt Rutan)
 
 @snapend
 
