@@ -1,4 +1,5 @@
-# Shift Left - Keep Calm ... and know your tests
+# Shift Left 
+## Keep Calm ... and know your tests
 
 ---
 
@@ -10,7 +11,8 @@
 
 ####  Move quality to the left ... to your developers!
 
-@fa[quote-left text-08 text-blue](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
+@fa[quote-left text-08 text-blue](Testing leads to failure, and failure leads to understanding.)
+@css[text-08 text-blue text-center](Burt Rutan)
 
 @snapend
 
@@ -62,27 +64,22 @@
 
 ---
 
-@snap[north span-100 text-center text-12]
-
-### Benefit 1: Collaboration: But with whom?
-
-@snapend
-
 @snap[west span-40]
 
+### Benefit 1: Collaboration: But with whom?
 ![ThreeAmigos](pitchme_res/3_amigos.png)
 
 @snapend
 
-@snap[north-east span-40 text-06 fragment]
+@snap[north-east span-40 text-08 fragment]
 @box[rounded](Take over #testing responsibility)
 @snapend
 
-@snap[east span-40 text-06 fragment]
+@snap[east span-40 text-08 fragment]
 @box[rounded](Learn to #communicate between Biz, Dev and Test)
 @snapend
 
-@snap[south-east span-40 text-06 fragment]
+@snap[south-east span-40 text-08 fragment]
 @box[rounded](Understand #to Code as a Tester)
 @snapend
 
