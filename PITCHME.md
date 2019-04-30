@@ -41,7 +41,8 @@
 
 #### When there is a LEFT ... there must be a RIGHT!
 
-@fa[quote-left text-08 text-blue](I have to keep testing myself. - Eartha Kitt)
+@fa[quote-left text-08 text-blue](I have to keep testing myself.)
+@css[text-05 text-blue text-right](Eartha Kitt)
 
 @snapend
 
@@ -65,7 +66,7 @@
 
 ---
 
-@snap[west span-40 text-10]
+@snap[west span-40 text-08]
 
 Benefit 1: Collaboration
 But with whom?
