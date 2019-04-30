@@ -1,3 +1,61 @@
+## What does Shift Left mean exactly?
+
+---
+
+### Move your attention to quality to the left ... to your developers!
+
+@snap[south span-40 text-center]
+
+@fa[quote-left quote-graphql](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
+![ShiftLeft](pitchme_res/ShiftLeftModel.png)
+
+@snapend
+
+@snap[north-west span-40 text-08]
+@box[](Benefit 1 # Collaborate, Collaborate and ... Collaborate!)
+@snapend
+
+@snap[north span-40 text-08]
+@box[](Benefit 2. Query # Test early, Test often!)
+@snapend
+
+@snap[north-east span-40 text-08]
+@box[](Benefit 3 # Find your bugs early!)
+@snapend
+
+---
+
+### When there is a LEFT ... there must be a RIGHT!
+
+@snap[south span-40 text-center]
+
+@fa[quote-left quote-graphql](A query language for your API)
+![ShiftLeft](pitchme_res/ShiftRightModel.png)
+
+@snapend
+
+@snap[north-west span-40 text-08]
+@box[](Step 1. Schema # Define types using SDL)
+@snapend
+
+@snap[north span-40 text-08]
+@box[](Step 2. Query # Fetch data with Queries)
+@snapend
+
+@snap[north-east span-40 text-08]
+@box[](Step 3. Mutate # Modify data with Mutations)
+@snapend
+
+---
+
+## Bring your tests to Developers, but dont speak Code, speak system!
+
+Note:
+
+- If you bring you your 
+
+---
+
 ## Embrace BDD and Gherkin! 
 
 ### Describe what you want from your system in simple examples.
