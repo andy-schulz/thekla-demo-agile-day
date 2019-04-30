@@ -120,7 +120,7 @@ Automation
 
 @box[bg-blue](Pros)
 
-@ol
+@ol[](false)
  - first pro 
  - second pro
  - third pro
@@ -134,7 +134,7 @@ Automation
 
 @box[bg-gray](Cons),
 
-@ol
+@ol[](false)
  - first con 
  - second con
  - third con
