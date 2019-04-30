@@ -3,7 +3,7 @@
 
 ---
 
-## What does @color [#DC143C](Shift Left) mean exactly?
+## What does @color[#DC143C](Shift Left) mean exactly?
 
 ---
 
