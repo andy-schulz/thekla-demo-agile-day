@@ -110,17 +110,9 @@ Automation
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
 
-@snap[north-east span-60 text-04 fragment]
+@snap[north-east span-60 fragment]
 
-````
-/* ELV Test Cases*/        
-Testcase testCase_GP026(id:14897){
-    Shop.loginWithPassword(User:user_PrivateCustomerOrgNr2_3)
-    Basket.add(product:Product_Good_PLZCard_7PctTax_Above15EUR amount:1)
-    Shop.checkout(shippingAddress:Address_allUsers_DEU_Simple_1 payment:Payment_SDD)
-    Shop.logout
-}
-````
+![ThreeAmigos](pitchme_res/elv_tests.png)
 
 @snapend
 
@@ -131,6 +123,9 @@ Testcase testCase_GP026(id:14897){
 @ol
  - first pro 
  - second pro
+ - third pro
+ - fourth pro
+ - fifth pro
 @olend
 
 @snapend
@@ -142,6 +137,9 @@ Testcase testCase_GP026(id:14897){
 @ol
  - first con 
  - second con
+ - third con
+ - fourth con
+ - fifth con
 @olend
 
 @snapend
