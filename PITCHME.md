@@ -98,7 +98,7 @@ Automation
 
 ---
 
-@snap[north-west span-30 text-08 fragment]
+@snap[north-west span-30 text-08]
 @box[rounded](DSL #Domain Specific Language)
 @snapend
 
@@ -110,7 +110,7 @@ Automation
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
 
-@snap[north-east span-60 fragment]
+@snap[north-east span-60 text-08 fragment]
 
 ````
 /* ELV Test Cases*/        
@@ -125,11 +125,11 @@ Testcase testCase_GP026(id:14897){
 @snapend
 
 @snap[south span-30 fragment]
-@box[rounded](Pros # - first pro - second pro)
+@box[bg-blue](Pros # - first pro - second pro)
 @snapend
 
 @snap[south-east span-30 fragment]
-@box[rounded](Cons #- first con - second con)
+@box[bg-blue](Cons #- first con - second con)
 @snapend
 
 ---
