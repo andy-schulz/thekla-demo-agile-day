@@ -2,14 +2,14 @@
 
 ---
 
-@snap[north span-40 text-center]
+@snap[north span-100 text-center]
 
 ### Move your attention to quality to the left ... to your developers!
 @fa[quote-left quote-graphql](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
 
 @snapend
 
-@snap[midpoint span-60]
+@snap[midpoint span-80]
 
 ![ShiftLeft](pitchme_res/ShiftLeftModel.png)
 
@@ -20,16 +20,16 @@
 @snapend
 
 @snap[south span-30 text-06 fragment]
-@box[rounded](Benefit 2. Query #Test early, Test often!)
+@box[rounded](Benefit 2. Query #Test early, Test often!               )
 @snapend
 
 @snap[south-east span-30 text-06 fragment]
-@box[rounded](Benefit 3 #Find your bugs early!)
+@box[rounded](Benefit 3 #Find your bugs early!                        )
 @snapend
 
 ---
 
-@snap[north span-40 text-center]
+@snap[north span-100 text-center]
 
 ### When there is a LEFT ... there must be a RIGHT!
 
@@ -37,7 +37,7 @@
 
 @snapend
 
-@snap[midpoint span-60]
+@snap[midpoint span-80]
 
 ![ShiftRight](pitchme_res/ShiftRightModel.png)
 
