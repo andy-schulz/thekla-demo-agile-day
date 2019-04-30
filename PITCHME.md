@@ -2,48 +2,58 @@
 
 ---
 
+@snap[north span-40 text-center]
+
 ### Move your attention to quality to the left ... to your developers!
-
-@snap[south span-40 text-center]
-
 @fa[quote-left quote-graphql](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
+
+@snapend
+
+@snap[midpoint span-60]
+
 ![ShiftLeft](pitchme_res/ShiftLeftModel.png)
 
 @snapend
 
-@snap[north-west span-40 text-08]
-@box[](Benefit 1 # Collaborate, Collaborate and ... Collaborate!)
+@snap[south-west span-30 text-06 fragment]
+@box[rounded](Benefit 1 #Collaborate, Collaborate and ... Collaborate!)
 @snapend
 
-@snap[north span-40 text-08]
-@box[](Benefit 2. Query # Test early, Test often!)
+@snap[south span-30 text-06 fragment]
+@box[rounded](Benefit 2. Query #Test early, Test often!)
 @snapend
 
-@snap[north-east span-40 text-08]
-@box[](Benefit 3 # Find your bugs early!)
+@snap[south-east span-30 text-06 fragment]
+@box[rounded](Benefit 3 #Find your bugs early!)
 @snapend
 
 ---
 
+@snap[north span-40 text-center]
+
 ### When there is a LEFT ... there must be a RIGHT!
 
-@snap[south span-40 text-center]
-
 @fa[quote-left quote-graphql](A query language for your API)
-![ShiftLeft](pitchme_res/ShiftRightModel.png)
 
 @snapend
 
-@snap[north-west span-40 text-08]
-@box[](Step 1. Schema # Define types using SDL)
+@snap[midpoint span-60]
+
+![ShiftRight](pitchme_res/ShiftRightModel.png)
+
 @snapend
 
-@snap[north span-40 text-08]
-@box[](Step 2. Query # Fetch data with Queries)
+
+@snap[south-west span-30 text-06]
+@box[rounded](Done in: Production)
 @snapend
 
-@snap[north-east span-40 text-08]
-@box[](Step 3. Mutate # Modify data with Mutations)
+@snap[south span-30 text-06]
+@box[rounded](Done for # Performance or UX tests)
+@snapend
+
+@snap[south-east span-30 text-06]
+@box[rounded](Done with #A sophisticated monitoring)
 @snapend
 
 ---
