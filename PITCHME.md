@@ -1,10 +1,14 @@
+# Shift Left - Keep Calm ... and know your tests
+
+---
+
 ## What does Shift Left mean exactly?
 
 ---
 
 @snap[north span-100 text-center]
 
-@css[text-25 text-white] Move quality to the left ... to your developers!
+####  Move quality to the left ... to your developers!
 
 @fa[quote-left text-08 text-blue](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
 
@@ -44,7 +48,6 @@
 
 @snapend
 
-
 @snap[south-west span-30 text-06 fragment]
 @box[rounded](Done in #Production)
 @snapend
@@ -59,7 +62,33 @@
 
 ---
 
-## Bring your tests to Developers, but dont speak Code, speak system!
+@snap[north span-100 text-center text-12]
+
+### Benefit 1: Collaboration: But with whom?
+
+@snapend
+
+@snap[west span-40]
+
+![ThreeAmigos](pitchme_res/3_amigos.png)
+
+@snapend
+
+@snap[north-east span-40 text-06 fragment]
+@box[rounded](Take over #testing responsibility)
+@snapend
+
+@snap[east span-40 text-06 fragment]
+@box[rounded](Learn to #communicate between Biz, Dev and Test)
+@snapend
+
+@snap[south-east span-40 text-06 fragment]
+@box[rounded](Understand #to Code as a Tester)
+@snapend
+
+---
+
+## How do we bring tests to Developers, without being technical!
 
 Note:
 
