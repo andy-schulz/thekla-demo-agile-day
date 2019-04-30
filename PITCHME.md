@@ -2,11 +2,11 @@
 
 ---
 
-@snap[north span-100 text-center text-12]
+@snap[north span-100 text-center]
 
-#### Move quality to the left ... to your developers!
+@css[text-25 text-white] Move quality to the left ... to your developers!
 
-@fa[quote-left text-08](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
+@fa[quote-left text-08 text-blue](Testing leads to failure, and failure leads to understanding. - Burt Rutan)
 
 @snapend
 
@@ -17,7 +17,7 @@
 @snapend
 
 @snap[south-west span-30 text-06 fragment]
-@box[rounded](Benefit 1 #Collaborate, Collaborate and ... Collaborate!)
+@box[rounded](Benefit 1 #Collaborate and ... Collaborate!)
 @snapend
 
 @snap[south span-30 text-06 fragment]
@@ -34,7 +34,7 @@
 
 #### When there is a LEFT ... there must be a RIGHT!
 
-@fa[quote-left text-08](I have to keep testing myself. - Eartha Kitt)
+@fa[quote-left text-08 text-blue](I have to keep testing myself. - Eartha Kitt)
 
 @snapend
 
@@ -45,15 +45,15 @@
 @snapend
 
 
-@snap[south-west span-30 text-06]
+@snap[south-west span-30 text-06 fragment]
 @box[rounded](Done in #Production)
 @snapend
 
-@snap[south span-30 text-06]
+@snap[south span-30 text-06 fragment]
 @box[rounded](Done for #Performance or UX tests)
 @snapend
 
-@snap[south-east span-30 text-06]
+@snap[south-east span-30 text-06 fragment]
 @box[rounded](Done with #A sophisticated monitoring)
 @snapend
 
