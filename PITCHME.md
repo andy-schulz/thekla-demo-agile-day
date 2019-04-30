@@ -88,6 +88,62 @@ But with whom?
 
 ---
 
+@snap[west span-40 text-08]
+
+Benefit 2: Test early, Test often
+
+Automation
+
+@snapend
+
+---
+
+@snap[north-west span-30 text-08 fragment]
+@box[rounded](DSL #Domain Specific Language)
+@snapend
+
+@snap[west span-30 text-08 fragment]
+@box[rounded](BPT #Business Process Testing)
+@snapend
+
+@snap[south-west span-30 text-08 fragment]
+@box[rounded](Code #Use Frameworks like Selenium)
+@snapend
+
+@snap[north-east span-60fragment]
+````
+/* ELV Test Cases*/        
+Testcase testCase_GP026(id:14897){
+    Shop.loginWithPassword(User:user_PrivateCustomerOrgNr2_3)
+    Basket.add(product:Product_Good_PLZCard_7PctTax_Above15EUR amount:1)
+    Shop.checkout(shippingAddress:Address_allUsers_DEU_Simple_1 payment:Payment_SDD)
+    Shop.logout
+}
+````
+@snapend
+
+@snap[south span-30 fragment]
+@box[rounded](Pros #
+- first pro
+- second pro)
+@snapend
+
+@snap[south-east span-30 fragment]
+@box[rounded](Cons #
+- first con
+- second con)
+@snapend
+
+---
+
+Wenn wir unsere Tests nun zum Entwickler bringen müssen diese automatisiert werden.
+
+Mehrere Versuche
+
+
+
+---
+
 ## How do we bring tests to Developers, without being technical!
 
 Note:
