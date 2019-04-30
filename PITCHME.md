@@ -110,7 +110,8 @@ Automation
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
 
-@snap[north-east span-60fragment]
+@snap[north-east span-60 fragment]
+
 ````
 /* ELV Test Cases*/        
 Testcase testCase_GP026(id:14897){
@@ -120,18 +121,15 @@ Testcase testCase_GP026(id:14897){
     Shop.logout
 }
 ````
+
 @snapend
 
 @snap[south span-30 fragment]
-@box[rounded](Pros #
-- first pro
-- second pro)
+@box[rounded](Pros # - first pro - second pro)
 @snapend
 
 @snap[south-east span-30 fragment]
-@box[rounded](Cons #
-- first con
-- second con)
+@box[rounded](Cons #- first con - second con)
 @snapend
 
 ---
