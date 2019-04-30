@@ -118,7 +118,7 @@ Automation
 
 @snap[south span-30 fragment]
 
-@box[bg-blue](Pros)
+@box[bg-gray](Pros)
 
 @ol[](false)
  - first pro 
