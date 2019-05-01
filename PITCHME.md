@@ -112,7 +112,7 @@ box[rounded](BPT #Business Process Testing)
 @snapend
 -->
 
-@snap[south-east span-60 fragment]
+@snap[south-east span-66 fragment]
 
 ![ELVTests](pitchme_res/elv_tests.png)
 
@@ -151,8 +151,8 @@ box[rounded](BPT #Business Process Testing)
 @snapend
 
 
-@snap[west span-30 text-08 fragment]
-box[rounded bg-gold](BPT #Business Process Testing)
+@snap[west span-30 text-08]
+@box[rounded bg-gold](BPT #Business Process Testing - HP ALM)
 @snapend
 
 <!---
@@ -161,7 +161,7 @@ box[rounded bg-gold](BPT #Business Process Testing)
 @snapend
 -->
 
-@snap[south-east span-60 fragment]
+@snap[south-east span-66 fragment]
 
 ![BPTesting](pitchme_res/BusinessProcessTesting.png)
 
@@ -185,8 +185,7 @@ box[rounded bg-gold](BPT #Business Process Testing)
 
 @ol[text-06](false)
 - Hard to Integrate into Dev Process
-- Limited Acceptance by Dev
-    - Its a separate Tool !!
+- Limited Acceptance by Dev (Its a separate Tool !!)
 - To Complex for Testers
 - Hard to do for Continuous Testing
 @olend
@@ -195,11 +194,48 @@ box[rounded bg-gold](BPT #Business Process Testing)
 
 ---
 
-Wenn wir unsere Tests nun zum Entwickler bringen müssen diese automatisiert werden.
+@snap[north-west span-30 text-08]
+@box[rounded](DSL #Domain Specific Language)
+@snapend
 
-Mehrere Versuche
+
+@snap[west span-30 text-08]
+@box[rounded](BPT #Business Process Testing - HP ALM)
+@snapend
 
 
+@snap[south-west span-30 text-08]
+@box[rounded bg-gold](Test Code #With Frameworks like Selenium)
+@snapend
+
+
+@snap[south-east span-66 fragment]
+
+![BPTesting](pitchme_res/postident_test_code.png)
+
+@snapend
+
+@snap[north span-33 text-08 fragment]
+
+@box[bg-gray](Pros)
+
+@ol[text-06](false)
+- Deep Integration in to Dev Tool
+- CI & CD ready
+@olend
+
+@snapend
+
+@snap[north-east span-33 text-08 fragment]
+
+@box[bg-gray](Cons),
+
+@ol[text-06](false)
+- Hard to Understand by non technical folks
+- Reason of Test Case not obvious
+@olend
+
+@snapend
 
 ---
 
