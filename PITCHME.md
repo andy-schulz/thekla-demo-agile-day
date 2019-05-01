@@ -68,7 +68,7 @@
 
 @snap[west span-40 text-08]
 
-Benefit 1: Collaboration
+Collaboration
 But with whom?
 ![ThreeAmigos](pitchme_res/3_amigos.png)
 
@@ -104,7 +104,7 @@ Automation
 
 
 @snap[west span-30 text-08]
-box[rounded](BPT #Business Process Testing)
+@box[rounded](BPT #Business Process Testing)
 @snapend
 
 @snap[south-west span-30 text-08]
@@ -171,6 +171,7 @@ box[rounded](BPT #Business Process Testing)
 
 @box[bg-gray](Pros)
 
+
 @ol[text-06](false)
 - Separation of Test Definition and Execution
 - Understandable by Testers
@@ -211,7 +212,7 @@ box[rounded](BPT #Business Process Testing)
 
 @snap[south-east span-66 fragment]
 
-![BPTesting](pitchme_res/postident_test_code.png)
+![Code](pitchme_res/postident_test_code.png)
 
 @snapend
 
@@ -240,6 +241,24 @@ box[rounded](BPT #Business Process Testing)
 ---
 
 ## How do we bring tests to Developers, without being technical!
+
+@snap[north-west span-40]
+
+![Code](pitchme_res/postident_test_code.png)
+
+@snapend
+
+@snap[midpoint span-40]
+
+![BPTesting](pitchme_res/BusinessProcessTesting.png)
+
+@snapend
+
+@snap[south-east span-40]
+
+![ELVTest](pitchme_res/elv_tests.png)
+
+@snapend
 
 Note:
 
