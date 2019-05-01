@@ -110,22 +110,20 @@ Automation
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
 
-@snap[north-east span-60 text-08 fragment]
+@snap[north-east span-60 fragment]
 
 ![ThreeAmigos](pitchme_res/elv_tests.png)
 
 @snapend
 
-@snap[south span-30 fragment]
+@snap[south span-30 text-08 fragment]
 
 @box[bg-gray](Pros)
 
-@ol[](false)
- - first pro 
- - second pro
- - third pro
- - fourth pro
- - fifth pro
+@ol[text-06](false)
+- Separation of Test Def. and Code
+- Integrated in Build Process
+- Dev Tool Integration
 @olend
 
 @snapend
@@ -134,12 +132,10 @@ Automation
 
 @box[bg-gray](Cons),
 
-@ol[](false)
- - first con 
- - second con
- - third con
- - fourth con
- - fifth con
+@ol[text-06](false)
+ - Only Eclipse Support
+ - Limitted Acceptance by Dev
+ - Test Case Readability
 @olend
 
 @snapend
