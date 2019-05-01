@@ -99,43 +99,96 @@ Automation
 ---
 
 @snap[north-west span-30 text-08]
-@box[rounded](DSL #Domain Specific Language)
+@box[rounded bg-gold](DSL #Domain Specific Language)
 @snapend
 
+<!---
 @snap[west span-30 text-08 fragment]
-@box[rounded](BPT #Business Process Testing)
+box[rounded](BPT #Business Process Testing)
 @snapend
 
 @snap[south-west span-30 text-08 fragment]
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
+-->
 
-@snap[north-east span-60 fragment]
+@snap[south-east span-60 fragment]
 
-![ThreeAmigos](pitchme_res/elv_tests.png)
+![ELVTests](pitchme_res/elv_tests.png)
 
 @snapend
 
-@snap[south span-30 text-08 fragment]
+@snap[north span-33 text-08 fragment]
 
 @box[bg-gray](Pros)
 
 @ol[text-06](false)
-- Separation of Test Def. and Code
+- Separation of Test Definition and Execution
 - Integrated in Build Process
 - Dev Tool Integration
 @olend
 
 @snapend
 
-@snap[south-east span-30 text-08 fragment]
+@snap[north-east span-33 text-08 fragment]
 
 @box[bg-gray](Cons),
 
 @ol[text-06](false)
- - Only Eclipse Support
- - Limitted Acceptance by Dev
- - Test Case Readability
+- Only Eclipse Support
+- Limited Acceptance by Dev
+- To complex for Testers
+- Test Case Readability
+- Hard to extend the DSL
+@olend
+
+@snapend
+
+---
+
+@snap[north-west span-30 text-08]
+@box[rounded](DSL #Domain Specific Language)
+@snapend
+
+
+@snap[west span-30 text-08 fragment]
+box[rounded bg-gold](BPT #Business Process Testing)
+@snapend
+
+<!---
+@snap[south-west span-30 text-08 fragment]
+@box[rounded](Code #Use Frameworks like Selenium)
+@snapend
+-->
+
+@snap[south-east span-60 fragment]
+
+![BPTesting](pitchme_res/BusinessProcessTesting.png)
+
+@snapend
+
+@snap[north span-33 text-08 fragment]
+
+@box[bg-gray](Pros)
+
+@ol[text-06](false)
+- Separation of Test Definition and Execution
+- Understandable by Testers
+- Integrated in HP ALM
+@olend
+
+@snapend
+
+@snap[north-east span-33 text-08 fragment]
+
+@box[bg-gray](Cons),
+
+@ol[text-06](false)
+- Hard to Integrate into Dev Process
+- Limited Acceptance by Dev
+    - Its a separate Tool !!
+- To Complex for Testers
+- Hard to do for Continuous Testing
 @olend
 
 @snapend
