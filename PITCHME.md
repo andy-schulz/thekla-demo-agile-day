@@ -102,15 +102,15 @@ Automation
 @box[rounded bg-gold](DSL #Domain Specific Language)
 @snapend
 
-<!---
-@snap[west span-30 text-08 fragment]
+
+@snap[west span-30 text-08]
 box[rounded](BPT #Business Process Testing)
 @snapend
 
-@snap[south-west span-30 text-08 fragment]
+@snap[south-west span-30 text-08]
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
--->
+
 
 @snap[south-east span-66 fragment]
 
@@ -155,11 +155,11 @@ box[rounded](BPT #Business Process Testing)
 @box[rounded bg-gold](BPT #Business Process Testing - HP ALM)
 @snapend
 
-<!---
-@snap[south-west span-30 text-08 fragment]
+
+@snap[south-west span-30 text-08]
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
--->
+
 
 @snap[south-east span-66 fragment]
 
