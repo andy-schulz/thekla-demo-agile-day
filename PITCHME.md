@@ -239,8 +239,12 @@ Automation
 @snapend
 
 ---
+@snap[modpoint span-60]
 
 ## How do we bring tests to Developers, without being technical!
+
+@snapend
+
 
 @snap[north-west span-40]
 
@@ -248,13 +252,13 @@ Automation
 
 @snapend
 
-@snap[midpoint span-40]
+@snap[west span-40]
 
 ![BPTesting](pitchme_res/BusinessProcessTesting.png)
 
 @snapend
 
-@snap[south-east span-40]
+@snap[south-west span-40]
 
 ![ELVTest](pitchme_res/elv_tests.png)
 
