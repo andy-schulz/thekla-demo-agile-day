@@ -239,7 +239,7 @@ Automation
 @snapend
 
 ---
-@snap[modpoint span-60]
+@snap[east span-60]
 
 ## How do we bring tests to Developers, without being technical!
 
