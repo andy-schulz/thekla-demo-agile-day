@@ -118,7 +118,7 @@ Automation
 
 @snapend
 
-@snap[north span-33 text-08 fragment]
+@snap[north text-left span-33 text-08 fragment]
 
 @box[bg-gray](Pros)
 
@@ -130,7 +130,7 @@ Automation
 
 @snapend
 
-@snap[north-east span-33 text-08 fragment]
+@snap[north-east text-left span-33 text-08 fragment]
 
 @box[bg-gray](Cons),
 
@@ -167,7 +167,7 @@ Automation
 
 @snapend
 
-@snap[north span-33 text-08 fragment]
+@snap[north text-left span-33 text-08 fragment]
 
 @box[bg-gray](Pros)
 
@@ -180,7 +180,7 @@ Automation
 
 @snapend
 
-@snap[north-east span-33 text-08 fragment]
+@snap[north-east text-left span-33 text-08 fragment]
 
 @box[bg-gray](Cons),
 
@@ -216,7 +216,7 @@ Automation
 
 @snapend
 
-@snap[north span-33 text-08 fragment]
+@snap[north text-left span-33 text-08 fragment]
 
 @box[bg-gray](Pros)
 
@@ -227,7 +227,7 @@ Automation
 
 @snapend
 
-@snap[north-east span-33 text-08 fragment]
+@snap[north-east text-left span-33 text-08 fragment]
 
 @box[bg-gray](Cons),
 
@@ -239,6 +239,7 @@ Automation
 @snapend
 
 ---
+
 @snap[east span-60]
 
 ## How do we bring tests to Developers, without being technical!
