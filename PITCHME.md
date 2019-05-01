@@ -28,7 +28,7 @@
 @snapend
 
 @snap[south span-30 text-06 fragment]
-@box[rounded](Benefit 2. Query #Test early, Test often!)
+@box[rounded](Benefit 2. #Test early, Test often!)
 @snapend
 
 @snap[south-east span-30 text-06 fragment]
@@ -110,7 +110,7 @@ Automation
 @box[rounded](Code #Use Frameworks like Selenium)
 @snapend
 
-@snap[north-east span-60 fragment]
+@snap[north-east span-60 text-08 fragment]
 
 ![ThreeAmigos](pitchme_res/elv_tests.png)
 
@@ -130,7 +130,7 @@ Automation
 
 @snapend
 
-@snap[south-east span-30 fragment]
+@snap[south-east span-30 text-08 fragment]
 
 @box[bg-gray](Cons),
 
