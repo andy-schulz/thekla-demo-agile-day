@@ -1,5 +1,5 @@
 # Shift Left 
-## Keep Calm ... and know your tests
+## Keep Calm ... And Test Your Understanding
 
 ---
 
@@ -242,7 +242,7 @@ Automation
 
 @snap[east span-60]
 
-## How do we bring tests to Developers, without being technical!
+## How do we bring tests to Developers, without being technical?
 
 @snapend
 
