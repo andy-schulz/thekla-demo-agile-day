@@ -23,17 +23,53 @@
 
 @snapend
 
-@snap[south-west span-30 text-06 fragment]
+
+---
+
+@snap[north span-100 text-center]
+
+####  Move quality to the left ... to your developers!
+
+@fa[quote-left text-08 text-blue](Testing leads to failure, and failure leads to understanding.)
+
+@css[text-05 text-blue text-right](Burt Rutan)
+
+@snapend
+
+@snap[midpoint span-80]
+
+![ShiftLeft](pitchme_res/ShiftLeftModel.png)
+
+@snapend
+
+@snap[south-west span-30 text-06]
 @box[rounded](Benefit 1 #Collaborate and ... Cooperate!)
 @snapend
 
-@snap[south span-30 text-06 fragment]
+@snap[south span-30 text-06]
 @box[rounded](Benefit 2 #Test early, Test often!)
 @snapend
 
-@snap[south-east span-30 text-06 fragment]
+@snap[south-east span-30 text-06]
 @box[rounded](Benefit 3 #Find your bugs early!)
 @snapend
+
+---
+@snap[north span-100 text-center text-12]
+
+#### When there is a LEFT ... there must be a RIGHT!
+
+@fa[quote-left text-08 text-blue](I have to keep testing myself.)
+@css[text-05 text-blue text-right](Eartha Kitt)
+
+@snapend
+
+@snap[midpoint span-80]
+
+![ShiftRight](pitchme_res/ShiftRightModel.png)
+
+@snapend
+
 
 ---
 
@@ -52,15 +88,15 @@
 
 @snapend
 
-@snap[south-west span-30 text-06 fragment]
+@snap[south-west span-30 text-06]
 @box[rounded](Done in #Production)
 @snapend
 
-@snap[south span-30 text-06 fragment]
+@snap[south span-30 text-06]
 @box[rounded](Done for #Performance or UX tests)
 @snapend
 
-@snap[south-east span-30 text-06 fragment]
+@snap[south-east span-30 text-06]
 @box[rounded](Done with #A sophisticated monitoring)
 @snapend
 
