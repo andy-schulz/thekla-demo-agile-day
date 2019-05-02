@@ -99,6 +99,15 @@
 @snap[south-east span-30 text-06]
 @box[rounded](Done with #A sophisticated monitoring)
 @snapend
+---
+
+@snap[west span-40 text-08]
+
+Benefit 1: Collaboration
+But with whom?
+![ThreeAmigos](pitchme_res/3_amigos.png)
+
+@snapend
 
 ---
 
