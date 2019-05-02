@@ -1,5 +1,5 @@
 # Shifting Left 
-## ... And understand your Tests
+## ... and understand your Tests
 
 ---
 
@@ -74,15 +74,15 @@ But with whom?
 
 @snapend
 
-@snap[north-east span-40 text-08 fragment]
+@snap[north-east span-40 text-08]
 @box[rounded](Take over #testing responsibility)
 @snapend
 
-@snap[east span-40 text-08 fragment]
+@snap[east span-40 text-08]
 @box[rounded](Learn to #communicate between Biz, Dev and Test)
 @snapend
 
-@snap[south-east span-40 text-08 fragment]
+@snap[south-east span-40 text-08]
 @box[rounded](Understand #to Code as a Tester)
 @snapend
 
@@ -94,16 +94,31 @@ Benefit 2: Test Early, Test Often.
 
 @snapend
 
-@snap[north-east span-40 text-08 fragment]
+@snap[north-east span-40 text-08]
 @box[rounded](Test Early # All developers can at least EXECUTE the tests.)
 @snapend
 
-@snap[east span-40 text-08 fragment]
+@snap[east span-40 text-08]
 @box[rounded](Test often #at least once a day better multiple times a day.)
 @snapend
 
-@snap[south-east span-40 text-08 fragment]
+@snap[south-east span-40 text-08]
 @box[rounded](Leads to #Continuous Testing)
+@snapend
+
+---
+
+@snap[north-west span-30 text-08]
+@box[rounded](DSL #Domain Specific Language)
+@snapend
+
+
+@snap[west span-30 text-08]
+@box[rounded](BPT #Business Process Testing)
+@snapend
+
+@snap[south-west span-30 text-08]
+@box[rounded](Code #Use Frameworks like Selenium)
 @snapend
 
 ---
@@ -122,13 +137,13 @@ Benefit 2: Test Early, Test Often.
 @snapend
 
 
-@snap[south-east span-66 fragment]
+@snap[south-east span-66]
 
 ![ELVTests](pitchme_res/elv_tests.png)
 
 @snapend
 
-@snap[north text-left span-33 text-08 fragment]
+@snap[north text-left span-33 text-08]
 
 @box[bg-gray](Pros)
 
@@ -139,7 +154,7 @@ Benefit 2: Test Early, Test Often.
 
 @snapend
 
-@snap[north-east text-left span-33 text-08 fragment]
+@snap[north-east text-left span-33 text-08]
 
 @box[bg-gray](Cons),
 
@@ -169,13 +184,13 @@ Benefit 2: Test Early, Test Often.
 @snapend
 
 
-@snap[south-east span-66 fragment]
+@snap[south-east span-66]
 
 ![BPTesting](pitchme_res/BusinessProcessTesting.png)
 
 @snapend
 
-@snap[north text-left span-33 text-08 fragment]
+@snap[north text-left span-33 text-08]
 
 @box[bg-gray](Pros)
 
@@ -187,7 +202,7 @@ Benefit 2: Test Early, Test Often.
 
 @snapend
 
-@snap[north-east text-left span-33 text-08 fragment]
+@snap[north-east text-left span-33 text-08]
 
 @box[bg-gray](Cons),
 
@@ -216,13 +231,13 @@ Benefit 2: Test Early, Test Often.
 @snapend
 
 
-@snap[south-east span-66 fragment]
+@snap[south-east span-66]
 
 ![Code](pitchme_res/postident_test_code.png)
 
 @snapend
 
-@snap[north text-left span-33 text-08 fragment]
+@snap[north text-left span-33 text-08]
 
 @box[bg-gray](Pros)
 
@@ -233,7 +248,7 @@ Benefit 2: Test Early, Test Often.
 
 @snapend
 
-@snap[north-east text-left span-33 text-08 fragment]
+@snap[north-east text-left span-33 text-08]
 
 @box[bg-gray](Cons),
 
@@ -253,7 +268,7 @@ Benefit 2: Test Early, Test Often.
 @snapend
 
 
-@snap[north-west span-40]
+@snap[south-west span-40]
 
 ![Code](pitchme_res/postident_test_code.png)
 
@@ -265,7 +280,7 @@ Benefit 2: Test Early, Test Often.
 
 @snapend
 
-@snap[south-west span-40]
+@snap[north-west span-40]
 
 ![ELVTest](pitchme_res/elv_tests.png)
 
