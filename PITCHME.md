@@ -1,9 +1,9 @@
-# Shift Left 
-## Keep Calm ... And Test Your Understanding
+# Shifting Left 
+## ... And understand your Tests
 
 ---
 
-## What does @color[#DC143C](Shift Left) mean exactly?
+## What does @color[#DC143C](Shifting Left) mean exactly?
 
 ---
 
@@ -24,11 +24,11 @@
 @snapend
 
 @snap[south-west span-30 text-06 fragment]
-@box[rounded](Benefit 1 #Collaborate and ... Collaborate!)
+@box[rounded](Benefit 1 #Collaborate and ... Cooperate!)
 @snapend
 
 @snap[south span-30 text-06 fragment]
-@box[rounded](Benefit 2. #Test early, Test often!)
+@box[rounded](Benefit 2 #Test early, Test often!)
 @snapend
 
 @snap[south-east span-30 text-06 fragment]
@@ -68,7 +68,7 @@
 
 @snap[west span-40 text-08]
 
-Collaboration
+Benefit 1: Collaboration
 But with whom?
 ![ThreeAmigos](pitchme_res/3_amigos.png)
 
@@ -90,10 +90,20 @@ But with whom?
 
 @snap[west span-40 text-08]
 
-Benefit 2: Test early, Test often
+Benefit 2: Test Early, Test Often.
 
-Automation
+@snapend
 
+@snap[north-east span-40 text-08 fragment]
+@box[rounded](Test Early # All developers can at least EXECUTE the tests.)
+@snapend
+
+@snap[east span-40 text-08 fragment]
+@box[rounded](Test often #at least once a day better multiple times a day.)
+@snapend
+
+@snap[south-east span-40 text-08 fragment]
+@box[rounded](Leads to #Continuous Testing)
 @snapend
 
 ---
@@ -123,7 +133,6 @@ Automation
 @box[bg-gray](Pros)
 
 @ol[text-06](false)
-- Separation of Test Definition and Execution
 - Integrated in Build Process
 - Dev Tool Integration
 @olend
@@ -135,7 +144,6 @@ Automation
 @box[bg-gray](Cons),
 
 @ol[text-06](false)
-- Only Eclipse Support
 - Limited Acceptance by Dev
 - To complex for Testers
 - Test Case Readability
@@ -173,7 +181,6 @@ Automation
 
 
 @ol[text-06](false)
-- Separation of Test Definition and Execution
 - Understandable by Testers
 - Integrated in HP ALM
 @olend
@@ -187,8 +194,7 @@ Automation
 @ol[text-06](false)
 - Hard to Integrate into Dev Process
 - Limited Acceptance by Dev (Its a separate Tool !!)
-- To Complex for Testers
-- Hard to do for Continuous Testing
+- Hard to do Continuous Testing
 @olend
 
 @snapend
@@ -407,6 +413,9 @@ export class TypeIn extends Task {
     performAs(actor: PerformsTask): Promise<void> {
         return actor.attemptsTo(
             ...this.clickOnTheNumbersSingleDigits()
+            // Click.on(Calculators.SIGNATURE_BUTTON("-")),
+            // Click.on(Calculators.NUMBER_BUTTON("3")),
+            // Click.on(Calculators.NUMBER_BUTTON("0")),
         )
     }
 
